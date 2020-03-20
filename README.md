@@ -3,6 +3,8 @@ Webix Personal Task Board Template
 
 Check the Personal Task Board web template for the Webix UI library. 
 
+[Personal Tasks Board live demo](https://webix-hub.github.io/task-board-template/dist/es5/index.html).
+
 Use this template as a part of a business solution with the following features:
 
 - Alerts and notification bord;
