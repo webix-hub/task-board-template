@@ -1,0 +1,64 @@
+.list-actions {
+    .webix_list_item {
+        line-height: 45px;
+    }
+    .webix_arrow_icon{
+        right: 0;
+        padding-right:20px;
+    }
+    .actions-sum {
+        padding-left:10px;
+        .list-item-icon{
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            vertical-align: middle;
+        
+            margin-right: 10px;
+            line-height: 30px;
+        
+            font-size: 16px;
+        
+            border-radius: 30px;
+            box-sizing: border-box;
+        }
+    }       
+}
+
+.actions-sum{
+    &.color-violet{
+        color: #6776e7;
+        .list-item-icon{
+            background-color: #e9eefe;
+        }
+    }
+
+    &.color-red {
+        color: #fd4b51;
+        .list-item-icon{
+            background-color: #ffdbdc;
+        }
+    }
+
+    &.color-green{
+        color: #52c083;
+        .list-item-icon{
+            background-color: #e3faef;
+        }
+    }
+
+    &.color-orange{
+        color: #faa57b;
+        .list-item-icon{
+            background-color: #fff5e9;
+        }
+    }
+
+    &.color-blue{
+        color: #5095e0;
+        .list-item-icon{
+            background-color: #e1f0fe;
+        }
+    }
+}

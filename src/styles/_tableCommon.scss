@@ -1,0 +1,23 @@
+.custom-table {
+    .webix_column>div, 
+    .webix_table_cell {
+        padding: 10px 20px;
+        border-bottom: 1px solid transparent;
+        line-height: normal !important;
+    }
+
+    .webix_hcell.table-gray-header {
+        color: #818181;
+        background-color: #f0f1f3;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 0 20px;
+    }
+
+    .webix_ss_header td.webix_last_row,
+    div.webix_ss_vscroll_header {
+        background-color: #f0f1f3;
+        border-bottom: 1px solid transparent;    
+        border-left: 1px solid transparent;
+    }
+}

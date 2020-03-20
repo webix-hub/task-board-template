@@ -1,0 +1,43 @@
+.table-assignments {
+    .webix_column>div, 
+    .webix_table_cell, 
+    .webix_hcell {
+        padding-left: 20px;
+        border-bottom: 1px solid transparent;
+    }
+
+    .webix_hcell.header-multiline {
+        white-space: normal;
+        line-height:15px !important;
+        padding-top:12px;
+    }
+
+    .webix_ss_header td.webix_last_row,
+    div.webix_ss_vscroll_header {
+        background-color: #fff;
+        border-bottom: 1px solid transparent;    
+        border-left: 1px solid transparent;
+    }
+
+    .webix_cell {
+        white-space: normal;
+        padding-top:12px;
+    }
+}
+
+.icon-check {
+    line-height: 1.6;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+
+    margin-right: 10px;
+
+    border-radius: 25px;
+    box-sizing: border-box;
+
+    font-size: 16px;
+    color: #fff;
+    background-color: #52c083;
+}

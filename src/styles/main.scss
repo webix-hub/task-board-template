@@ -1,0 +1,66 @@
+@import "listActions";
+@import "listBadges";
+@import "tableAssignments";
+@import "tableCommon";
+
+.webix_view.webix_layout_custom {
+    background-color: #fff;
+}
+
+.header-label {
+    text-indent:20px;
+}
+
+.header-template { 
+    text-indent: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #f0f1f3;
+    line-height: 30px;
+
+    &.orange {
+        color: #ff8e80;
+    }
+}
+
+.template-summary {
+    padding-bottom: 10px;
+    padding-top: 3px;
+    font-weight: 500;
+}
+
+// common fonts and colors
+
+.semi-bold{
+    font-weight: 500;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-secondary {    
+    font-size: 11px;
+    padding-bottom: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.gray {
+    color: #818181;
+}
+
+.red {
+    color: #fd4b51;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
